@@ -41,6 +41,7 @@
 
 - Bootstrap (Framework css).
 - Javascript.
+- JQuery.
 - Drag and Drop.
 - CSS3.
 - HTML5.

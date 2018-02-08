@@ -158,6 +158,10 @@ section.box-images img.img-fluid {
   margin-bottom: 2vh;
 }
 
+img {
+  width: 70vh;
+}
+
 @media (min-width: 768px) {
   .margin-btm-2 {
     margin-bottom: 0;
