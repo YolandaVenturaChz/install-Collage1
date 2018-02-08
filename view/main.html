@@ -7,23 +7,66 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>InstaCollage</title>
   <!-- Framework Bootstrap vinculado -->
-  <link rel="stylesheet" href="vendors/bootstrap-4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../vendors/bootstrap-4/css/bootstrap.min.css">
   <!-- Archivo de estilos vinculado -->
   <link rel="stylesheet" href="../css/main.css">
 </head>
 
-<body class="box-imagenes">
+<body>
 
-  <section id="zonadestino">
-    Arrastre el elemento hasta aquí
+  <section id="zonadestino" class="collage-photos">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 height-col-6">
+
+        </div>
+        <div class="col-6 height-col-6">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 height-col-6">
+
+        </div>
+      </div>
+    </div>
   </section>
-  <section id="cajaimagen">
-    <img src="../assets/images/logo.gif" id="imagen1" draggable="true" alt="">
-    <img src="../assets/images/logo.gif" id="imagen2" draggable="true" alt="">
-    <img src="../assets/images/logo.gif" id="imagen3" draggable="true" alt="">
-    <img src="../assets/images/logo.gif" id="imagen4" draggable="true" alt="">
-    <img src="../assets/images/logo.gif" id="imagen3" draggable="true" alt="">
-    <img src="../assets/images/logo.gif" id="imagen4" draggable="true" alt="">
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center text-white"><img src="../assets/images/cam.png" alt="" class="img-cam">Photo Booth</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="cajaimagen" class="box-images">
+    <div class="container-fluid">
+      <div class="row margin-btm-2">
+        <div class="col-6 col-sm-6">
+          <img id="imagen1" src="http://uscdn02.mundotkm.com/2016/03/tumblr_n3rgamzUeL1qemrt5o1_500.jpg" alt="" class="img-fluid" draggable="true">
+        </div>
+        <div class="col-6 col-sm-6">
+          <img id="imagen2" src="https://i.pinimg.com/736x/c6/a1/bc/c6a1bc882e6b5fb036b1cc42440df7b7--tumblr-hipster-hipsters.jpg" alt="" class="img-fluid" draggable="true">
+        </div>
+      </div>
+      <div class="row margin-btm-2">
+        <div class="col-6 col-sm-6">
+          <img id="imagen3" src="http://www.charlestonparejas.com/wp-content/uploads/2017/07/1625875193c9ae478e6aa5e399d63ad3-best-friends-tumblr-mexico-pictures.jpg" alt="" class="img-fluid" draggable="true">
+        </div>
+        <div class="col-6 col-sm-6">
+          <img id="imagen4" src="http://moziru.com/images/drawn-women-long-hair-17.jpg" alt="" class="img-fluid" draggable="true">
+        </div>
+      </div>
+      <div class="row margin-btm-2">
+        <div class="col-6 col-sm-6">
+          <img id="imagen5" src="https://i.pinimg.com/736x/95/a2/d4/95a2d4f537e8d229ccb8d6f1a47dd623--la-web-real-quotes.jpg" alt="" class="img-fluid" draggable="true">
+        </div>
+        <div class="col-6 col-sm-6">
+          <img id="imagen6" src="http://wallpaper-gallery.net/images/tumblr-images/tumblr-images-21.jpg" alt="" class="img-fluid" draggable="true">
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Librería JQuery vinculada -->
