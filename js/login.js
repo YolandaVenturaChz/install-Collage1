@@ -3,7 +3,6 @@ $(document).ready(function () {
   $('#btn-login').click(function () {
     let mailVal = $('#email').val();
     let passVal = $('#password').val();
-    
     if (mailVal !== '' && passVal.length >= 6 && passVal !== '123456') {
       window.location.href = 'view/main.html';
     } else {

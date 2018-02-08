@@ -17,6 +17,14 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
+h1 {
+  font-family: "Lobster";
+  color: white;
+  font-size: 3em;
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
+
 input {
   width: 100%;
   border: none;
@@ -109,52 +117,64 @@ input::placeholder {
   text-align: center;
   padding: 10em 0;
 }
+
 /*Estilos para vsita main.html*/
-section.collage-photos{
+
+section.collage-photos {
   height: 40vh;
 }
-.height-col-6{
+
+.height-col-6 {
   min-height: 20vh;
   border: 2px solid #FFF;
 }
-.height100{
+
+.height100 {
   min-height: 100%;
 }
-.img-cam{
+
+.img-cam {
   width: 50px;
   margin-right: 2vw;
 }
-.width100{
+
+.width100 {
   width: 100%;
 }
-.width50{
+
+.width50 {
   width: 50%;
 }
-section.box-images{
+
+section.box-images {
   border: 2px solid #FFF;
 }
-section.box-images img.img-fluid{
+
+section.box-images img.img-fluid {
   height: 155px;
 }
-.margin-btm-2{
+
+.margin-btm-2 {
   margin-bottom: 2vh;
 }
+
 @media (min-width: 768px) {
-  .margin-btm-2{
+  .margin-btm-2 {
     margin-bottom: 0;
   }
-  section.box-images img.img-fluid{
+  section.box-images img.img-fluid {
     height: inherit;
   }
 }
+
 @media (min-width: 1020px) {
   .optionFooter {
     background: transparent;
   }
-  section#zonadestino.collage-photos{
+  section#zonadestino.collage-photos {
     height: 80vh;
   }
-  .height-col-6{
+  .height-col-6 {
     min-height: 40vh;
   }
 }
