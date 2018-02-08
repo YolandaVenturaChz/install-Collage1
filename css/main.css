@@ -117,7 +117,6 @@ input::placeholder {
   text-align: center;
   padding: 10em 0;
 }
-
 /*Estilos para vsita main.html*/
 
 section.collage-photos {
@@ -185,9 +184,14 @@ section.box-images img.img-fluid {
   section.box-images img.img-fluid {
     height: inherit;
   }
+  .flex-direction-column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1200px) {
   .optionFooter {
     background: transparent;
   }
