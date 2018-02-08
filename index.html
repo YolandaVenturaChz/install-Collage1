@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>InstaCollage</title>
+  <link rel="stylesheet" href="assets/icons/icomoon/style.css">
+  <!-- Framework Bootstrap vinculado -->
+  <link rel="stylesheet" href="vendors/bootstrap-4/css/bootstrap.min.css">
+  <!-- Tipo de letra Lobster vinculado desde Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <!-- Archivo de estilos vinculado -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="container">
+  <div class="row">
+    <div class="col-md-6 d-none d-lg-block vh100">
+      <img src="assets/images/cam.png" alt="">
+    </div>
+    <section class="grad col-xs-12 col-sm-12 col-lg-6">
+      <div class="login">
+        <h1 class="title">InstaCollage</h1>
+        <div class="input">
+          <div class="form-group ">
+            <input type="text" class="colorFondo p-3 opacity" id="email" placeholder="ejemplo@ejemplo.com">
+          </div>
+          <div class="form-group">
+            <input type="password" class="colorFondo p-3 opacity" id="password" placeholder="contraseña">
+          </div>
+
+          <button class="btn-block p-3 btn-seccion colorFondo" id="btn-login">Iniciar Sesión</button>
+          <div class="mt-3">
+            <p class="gray">¿Has olvidado tu información de inicio de sesión?
+              <span class="weight"> Obtén ayuda</span>
+            </p>
+          </div>
+          <div class="line">
+            <span class="weight gray size-o ">O</span>
+          </div>
+          <button class="btn-block p-3 colorFondo btn-face">
+            <span class="icon-facebook2 face"></span>Iniciar sesión con Facebook</button>
+        </div>
+      </div>
+
+      <div class="Footer">
+
+        <p class="mb-0">¿No tienes una cuenta?
+          <span class="weight">Regístrate</span>
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Librería JQuery vinculada -->
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <!-- Librería Teher vinculada -->
+  <script src="vendors/tether/js/tether.js"></script>
+  <!-- Archivo Javascript de Bootstrap vinculado -->
+  <script src="vendors/bootstrap-4/js/bootstrap.min.js"></script>
+  <!-- Archivo Javascript principal vinculado -->
+  <script src="js/login.js"></script>
+</body>
+
+</html>

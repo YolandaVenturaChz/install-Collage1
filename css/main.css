@@ -1,0 +1,134 @@
+#cajaimagen {
+  float: left;
+  width: 300px;
+  margin: 30px;
+  border: 1px solid #f00;
+}
+
+#zonadestino {
+  float: left;
+  width: 550px;
+  height: 400px;
+  margin: 100px;
+  border: 1px solid #00f;
+}
+
+body {
+  background: linear-gradient(#78B176, #C87A59);
+}
+.box-imagenes {
+  background:white;
+}
+.grad {
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.colorFondo {
+  color: white;
+}
+
+.opacity {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-seccion {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-seccion:disabled {
+  color: rgba(255, 255, 255, 0.6);
+  cursor: not-allowed;
+}
+
+.face {
+  font-size: 1.5em;
+  margin-right: .4em;
+  position: relative;
+  top: 4px;
+}
+
+.gray {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+}
+
+.btn-face {
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.size-o {
+  font-size: 16px;
+  position: relative;
+  top: 5px;
+  margin: 0 10px;
+}
+
+.input {
+  margin: 0 2em;
+}
+
+.Footer {
+  height: 10vh;
+  padding-top: 1em;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.box {
+  height: 13vh;
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.login {
+  height: 76vh;
+}
+
+.weight {
+  font-weight: 600;
+}
+
+.line:after,
+.line:before {
+  content: '';
+  width: 40%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+}
+
+.vh100 {
+  height: 100vh;
+  text-align: center;
+  padding: 10em 0;
+}
+
+@media (min-width: 1280px) {
+  .optionFooter {
+    background: transparent;
+  }
+}
