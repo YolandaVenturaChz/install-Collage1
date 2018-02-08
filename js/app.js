@@ -1,7 +1,7 @@
 var finish;
 
 let origin = () => {
-  let imagenes = document.querySelectorAll("#cajaimagen img");
+  let imagenes = document.querySelectorAll(".cajaimagen img");
   for (var i = 0; i < imagenes.length; i++) {
     imagenes[i].addEventListener("dragstart", dragstart);
     imagenes[i].addEventListener("dragend", finished);

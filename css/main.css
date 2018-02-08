@@ -148,6 +148,7 @@ section.collage-photos {
 
 section.box-images {
   border: 2px solid #FFF;
+  height: 10vh;
 }
 
 section.box-images img.img-fluid {
