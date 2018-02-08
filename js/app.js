@@ -1,7 +1,7 @@
 var finish;
 
 function origin() {
-  var imagenes = document.querySelectorAll("#cajaimagen img");
+  let imagenes = document.querySelectorAll("#cajaimagen img");
   for (var i = 0; i < imagenes.length; i++) {
     imagenes[i].addEventListener("dragstart", dragstart);
     imagenes[i].addEventListener("dragend", finished);
@@ -17,14 +17,14 @@ function origin() {
 }
 
 function dragstart(e) {
-  var elemento = e.target;
+  let elemento = e.target;
   e.dataTransfer.setData("Text", elemento.getAttribute("id"));
 }
 
 function drop(e) {
   e.preventDefault();
-  var id = e.dataTransfer.getData("Text");
-  var src = document.getElementById(id).src;
+  let id = e.dataTransfer.getData("Text");
+  let src = document.getElementById(id).src;
   finish.innerHTML = "<img src='" + src + "'>";
 }
 
@@ -39,7 +39,7 @@ function dragleave(e) {
 }
 
 function finished(e) {
-  var elemento = e.target;
+  let elemento = e.target;
   elemento.style.visibility = "hidden";
 }
 

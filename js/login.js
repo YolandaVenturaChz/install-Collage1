@@ -1,6 +1,6 @@
-$(document).ready(function () {
-  // comprobando inicio de sesión
-  $('#btn-login').click(function () {
+$(document).ready(() => {
+  /* Comprobar inicio de sesión */
+  $('#btn-login').on('click', ()=> {
     let mailVal = $('#email').val();
     let passVal = $('#password').val();
     if (mailVal !== '' && passVal.length >= 6 && passVal !== '123456') {
